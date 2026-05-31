@@ -1,0 +1,3390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_F02/1.32"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_F02/1.32">
+   <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+           schemaLocation="form_xsd_metaschema.xsd"/>
+   <element name="Doc_NAV_F02"
+            type="tns:Doc_NAV_F02_Type"
+            meta:metaType="DocMetaType">
+      <annotation>
+         <documentation>NAV_F02 Napi bejelentés fémkereskedelmi/ koncesszori fémkereskedelmi tevékenységről</documentation>
+      </annotation>
+   </element>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0001BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0002BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0003BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0004BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0005BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0006BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0007BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0008BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0009BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0010BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0011BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0012BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0001DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0002DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0003DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0004DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0005DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0006DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0007DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0008DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0009DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0010DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0011DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0012DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0001BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0001DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0002BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0002DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0003BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0003DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0004BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0004DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0005BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0005DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0006BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0006DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0007BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0007DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0008BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0008DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0009BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0009DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0010BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0010DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0011BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0011DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0012BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0012DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0013BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0013DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0014BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0014DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0015BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0015DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0016BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0016DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0017BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0017DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0018BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0018DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0019BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0019DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0020BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0020DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0021BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0021DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0022BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0022DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0023BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0023DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0024BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0024DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0025BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0025DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0026BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0CXXXXC0026DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1"/>
+         <enumeration value="2"/>
+         <enumeration value="3"/>
+         <enumeration value="4"/>
+         <enumeration value="5"/>
+         <enumeration value="6"/>
+         <enumeration value="7"/>
+         <enumeration value="8"/>
+         <enumeration value="9"/>
+         <enumeration value="10"/>
+         <enumeration value="11"/>
+         <enumeration value="12"/>
+         <enumeration value="13"/>
+         <enumeration value="14"/>
+         <enumeration value="15"/>
+         <enumeration value="16"/>
+         <enumeration value="17"/>
+         <enumeration value="18"/>
+         <enumeration value="19"/>
+         <enumeration value="20"/>
+         <enumeration value="21"/>
+         <enumeration value="22"/>
+         <enumeration value="23"/>
+         <enumeration value="24"/>
+         <enumeration value="25"/>
+         <enumeration value="26"/>
+         <enumeration value="27"/>
+         <enumeration value="28"/>
+         <enumeration value="29"/>
+         <enumeration value="30"/>
+         <enumeration value="31"/>
+         <enumeration value="32"/>
+      </restriction>
+   </simpleType>
+   <complexType name="Doc_NAV_F02_Type">
+      <annotation>
+         <documentation>A teljes bizonylat szerkezetet leíró típus</documentation>
+      </annotation>
+      <sequence>
+         <element name="Form_NAV_F02"
+                  type="tns:Form_NAV_F02_Type"
+                  minOccurs="1"
+                  maxOccurs="1"
+                  meta:metaType="FormMetaType">
+            <annotation>
+               <documentation>NAV_F02 részbizonylat</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Form_NAV_F02_Type">
+      <annotation>
+         <documentation>A teljes nyomtatvány NAV_F02 részbiztonylatának szerkezetét leíró típus.</documentation>
+      </annotation>
+      <sequence>
+         <element name="Block_120001"
+                  type="tns:Block_NAV_F02_120001_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120003"
+                  type="tns:Block_NAV_F02_120003_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Beadvány azonosítására vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120005"
+                  type="tns:Block_NAV_F02_120005_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Eladás/vásárlás napja</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120007"
+                  type="tns:Block_NAV_F02_120007_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Hitelesítésre vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120010"
+                  type="tns:Block_NAV_F02_120010_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>C) Pótlap</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120018"
+                  type="tns:Block_NAV_F02_120018_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>D) Pótlap</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Block_NAV_F02_120001_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120002"
+                  type="tns:FieldGroup_NAV_F02_120002_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(B)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120003_Type">
+      <annotation>
+         <documentation>Beadvány azonosítására vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120004"
+                  type="tns:FieldGroup_NAV_F02_120004_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(C)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120005_Type">
+      <annotation>
+         <documentation>Eladás/vásárlás napja</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120006"
+                  type="tns:FieldGroup_NAV_F02_120006_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(D)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120007_Type">
+      <annotation>
+         <documentation>Hitelesítésre vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120008"
+                  type="tns:FieldGroup_NAV_F02_120008_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(E)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120010_Type">
+      <annotation>
+         <documentation>C) Pótlap</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120033"
+                  type="tns:Chain_NAV_F02_120033_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Eladó/átadó adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120018_Type">
+      <annotation>
+         <documentation>D) Pótlap</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120051"
+                  type="tns:Chain_NAV_F02_120051_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Vevő/átvevő adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Chain_NAV_F02_120033_Type">
+      <annotation>
+         <documentation>Eladó/átadó adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120034"
+                           type="tns:FieldGroup_NAV_F02_120034_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="11988">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120035"
+                           type="tns:FieldGroup_NAV_F02_120035_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Eladó/átadó adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Chain_NAV_F02_120051_Type">
+      <annotation>
+         <documentation>Vevő/átvevő adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120052"
+                           type="tns:FieldGroup_NAV_F02_120052_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="25974">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120053"
+                           type="tns:FieldGroup_NAV_F02_120053_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Vevő/átvevő adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120002_Type">
+      <annotation>
+         <documentation>(B)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001E0119ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adószáma (IKTATO.ADOIG)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="11"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0120ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Engedélyszám (IKTATO.ENGSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0117ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Neve (IKTATO.NEV)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0121ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Telephely cím:#irsz. (IKTATO.CIM_1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="9"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0122ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Város#község (IKTATO.CIM_2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0123ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>utca /#út (IKTATO.CIM_3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="41"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0124ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hsz. (IKTATO.CIM_4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120004_Type">
+      <annotation>
+         <documentation>(C)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001F0114ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hiánypótlás (HIANYPOTLAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001F0132ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Javítás (JAVITAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0115ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hivatkozott beküldési azonosító (IKTATO.KAPCS_XML_ID)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="27"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120006_Type">
+      <annotation>
+         <documentation>(D)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001G0125ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Eladás/vásárlás napja: (IKTATO.BTOL)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001G0131ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Határon átnyúló tevékenység (HATAR)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120008_Type">
+      <annotation>
+         <documentation>(E)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001H0126ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Aláírás helysége (KELTHELY)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001H0127ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kelt (IKTATO.BKELT)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001H0128ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bejelentő azonosító (BEJAZON)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120035_Type">
+      <annotation>
+         <documentation>Eladó/átadó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (ELADSORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001LA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>b) Telephely#nélkül (ELADTN01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>c) Vámtarifa#szám (ELADHS01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>d) Anyag megnevezés (ELADMEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001DA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001DA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>e) Felismerésre alkalmas#jellemző (ELADJELKOD01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>f) Leírás (ELADMEGJ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="300"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>g) Eladó/átadó neve (ELADNEV01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>h) Eladó/átadó címe (ELADCIM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="100"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001PA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>i) Külföldi (EKULFOLDI01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>j) Eladó/átadó#adószáma vagy#azonosítószáma (ELADALANYKOD01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>k) Okmányszám#(természetes személy) (ELADSZIGSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="15"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001JA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>l) Számla vagy#kísérő okmány száma (ELADOKMSZAM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001KA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>m) Mennyiség (kg) (ELADMENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001MA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>n) Vételár/ellenérték#(természetes személy) (ELADAR01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="8"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001NA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>o) Visszaigazolás száma (ELADVISZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001OA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>p) Szállítóeszköz#azonosítója (ELADRENDSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120034_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXB0104ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (ELADLAPSZAM)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120053_Type">
+      <annotation>
+         <documentation>Vevő/átvevő adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorszám (VEVOSORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001KA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>b) Telephely#nélkül (VEVOTN01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>c) Vámtarifa#szám (VEVOHS01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>d) Anyag megnevezés (VEVOMEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001DA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001DA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>e) Felismerésre alkalmas#jellemző (VEVOJELKOD01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>f) Leírás (VEVOMEGJ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="300"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>g) Vevő/átvevő neve (VEVONEV01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>h) Vevő/átvevő címe (VEVOCIM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="100"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001MA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>i) Külföldi (VKULFOLDI01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>j) Vevő/átvevő adószáma#vagy adóazonosítója (VEVOALANYKOD01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>k) Számla vagy#kísérő okmány száma (VEVOOKMSZAM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001JA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>l) Mennyiség (kg) (VEVOMENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001LA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>m) Szállítóeszköz#azonosítója (VEVORENDSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120052_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXB0104ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (VEVOLAPSZAM)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+</schema>
