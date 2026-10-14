@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_F02/1.32"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_F02/1.32">
+   <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+           schemaLocation="form_xsd_metaschema.xsd"/>
+   <element name="Doc_NAV_F02"
+            type="tns:Doc_NAV_F02_Type"
+            meta:metaType="DocMetaType">
+      <annotation>
+         <documentation>NAV_F02 Napi bejelentés fémkereskedelmi/ koncesszori fémkereskedelmi tevékenységről</documentation>
+      </annotation>
+   </element>
+   <complexType name="Doc_NAV_F02_Type">
+      <annotation>
+         <documentation>A teljes bizonylat szerkezetet leíró típus</documentation>
+      </annotation>
+      <sequence>
+         <element name="Form_NAV_F02"
+                  type="tns:Form_NAV_F02_Type"
+                  minOccurs="1"
+                  maxOccurs="1"
+                  meta:metaType="FormMetaType">
+            <annotation>
+               <documentation>NAV_F02 részbizonylat</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0001BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000">
+            <annotation>
+               <documentation>0000=Vegyes fém</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7204">
+            <annotation>
+               <documentation>7204=Vas</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7404">
+            <annotation>
+               <documentation>7404=Réz</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7503">
+            <annotation>
+               <documentation>7503=Nikkel</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7602">
+            <annotation>
+               <documentation>7602=Alumínium</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7802">
+            <annotation>
+               <documentation>7802=Ólom</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7902">
+            <annotation>
+               <documentation>7902=Cink</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8002">
+            <annotation>
+               <documentation>8002=Ón</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8101">
+            <annotation>
+               <documentation>8101=Wolfram</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8102">
+            <annotation>
+               <documentation>8102=Molibdén</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8103">
+            <annotation>
+               <documentation>8103=Tantál</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8104">
+            <annotation>
+               <documentation>8104=Magnézium</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8105">
+            <annotation>
+               <documentation>8105=Kobalt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8106">
+            <annotation>
+               <documentation>8106=Bizmut</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8107">
+            <annotation>
+               <documentation>8107=Kadmium</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8108">
+            <annotation>
+               <documentation>8108=Titán</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8109">
+            <annotation>
+               <documentation>8109=Cirkónium</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8110">
+            <annotation>
+               <documentation>8110=Antimon</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8111">
+            <annotation>
+               <documentation>8111=Mangán</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8112">
+            <annotation>
+               <documentation>8112=Króm és Vanádium</documentation>
+            </annotation>
+         </enumeration>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F02_0BXXXXC0001DA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="1">
+            <annotation>
+               <documentation>1=akkumulátor</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="2">
+            <annotation>
+               <documentation>2=csatornafedél, csatornarács, vízelvezető csatorna elemek fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="3">
+            <annotation>
+               <documentation>3=csőszerelvény fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="4">
+            <annotation>
+               <documentation>4=csövek, rudak fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="5">
+            <annotation>
+               <documentation>5=egyéb ipari fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="6">
+            <annotation>
+               <documentation>6=egyéb*</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="7">
+            <annotation>
+               <documentation>7=ipari elektronikai berendezés, villanyoszlop fémhulladék, trafóházak, elektromos betápláló transzformátor, elosztó szekrények</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="8">
+            <annotation>
+               <documentation>8=emléktábla fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="9">
+            <annotation>
+               <documentation>9=építőipar fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="10">
+            <annotation>
+               <documentation>10=építőipar segédeszközeinek fémhulladéka (állványrendszer, zsalurendszer)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="11">
+            <annotation>
+               <documentation>11=forgács fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="12">
+            <annotation>
+               <documentation>12=a 31. pont szerinti jellemzőkkel rendelkező fémhulladék kivételével a gépjármű/haszongépjármű, egyéb közlekedési eszköz (pl. kerékpár) bontási fémhulladéka (gépjármű alkatrész, gépalkatrész, mezőgazdasági berendezések alkatrésze)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="13">
+            <annotation>
+               <documentation>13=háztartási fémhulladékok</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="14">
+            <annotation>
+               <documentation>14= ipari és mezőgazdasági vízépítési berendezések és alkatrészek, zsilipek, árvízvédelmi berendezések és alkatrészei, földgáz építési vezeték, berendezés és alkatrész fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="15">
+            <annotation>
+               <documentation>15=huzal fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="16">
+            <annotation>
+               <documentation>16=irodai fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="17">
+            <annotation>
+               <documentation>17=ipari eredetű kábel fémhulladék, ólomkábelről lebontott ólomköpeny fémhulladék, légkábeltartó acélsodrony fémhulladék, nagyfeszültségű kábel fémhulladék (háztartási és irodai gépekből származó kábelhulladékok kivételével)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="18">
+            <annotation>
+               <documentation>18=közlekedési műtárgy fémhulladéka (híd, hídkorlát, felüljáró)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="19">
+            <annotation>
+               <documentation>19=elektromos és elektronikai eszközök fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="20">
+            <annotation>
+               <documentation>20=vasúti alkatrészek (sín, síncsavar, kapcsolószerek, váltó), vasúti berendezések fémhulladéka, azok alkatrészeinek fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="21">
+            <annotation>
+               <documentation>21=szobor/műtárgy (öntvény/szerelt) fémhulladék, kegyeleti dísztárgy fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="22">
+            <annotation>
+               <documentation>22=tűzcsapok, tűzcsapszerelvények</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="23">
+            <annotation>
+               <documentation>23=telekommunikációs szolgáltatók eszközeinek, berendezéseinek fémhulladéka (pl. antennák, távközlési berendezések, távközlési aknafedél)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="24">
+            <annotation>
+               <documentation>24=bálázott, préselt fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="25">
+            <annotation>
+               <documentation>25=aprított fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="26">
+            <annotation>
+               <documentation>26=kerítéselem, kerítés drótháló</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="27">
+            <annotation>
+               <documentation>27=konténerek</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="28">
+            <annotation>
+               <documentation>28=közlekedési tábla</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="29">
+            <annotation>
+               <documentation>29=csomagolási fémhulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="30">
+            <annotation>
+               <documentation>30=csomagolási alumínium hulladék</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="31">
+            <annotation>
+               <documentation>31=a gépjárművezető ülésén kívül legfeljebb nyolc ülőhellyel rendelkező személygépkocsi (M1 kategória), a legfeljebb 3,5 t műszakilag megengedett legnagyobb össztömeggel bíró tehergépkocsi (N1 kategória), valamint a háromkerekű gépjármű, kivéve a motoros tricikli –ideértve ezek alkatrészeit és anyagait –  bontási fémhulladéka</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="32">
+            <annotation>
+               <documentation>32=katalizátor</documentation>
+            </annotation>
+         </enumeration>
+      </restriction>
+   </simpleType>
+   <complexType name="Form_NAV_F02_Type">
+      <annotation>
+         <documentation>A teljes nyomtatvány NAV_F02 részbiztonylatának szerkezetét leíró típus.</documentation>
+      </annotation>
+      <sequence>
+         <element name="Block_120001"
+                  type="tns:Block_NAV_F02_120001_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120003"
+                  type="tns:Block_NAV_F02_120003_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Beadvány azonosítására vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120005"
+                  type="tns:Block_NAV_F02_120005_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Eladás/vásárlás napja</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120007"
+                  type="tns:Block_NAV_F02_120007_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Hitelesítésre vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120010"
+                  type="tns:Block_NAV_F02_120010_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>C) Pótlap</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120018"
+                  type="tns:Block_NAV_F02_120018_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>D) Pótlap</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Block_NAV_F02_120001_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120002"
+                  type="tns:FieldGroup_NAV_F02_120002_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(B)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120003_Type">
+      <annotation>
+         <documentation>Beadvány azonosítására vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120004"
+                  type="tns:FieldGroup_NAV_F02_120004_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(C)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120005_Type">
+      <annotation>
+         <documentation>Eladás/vásárlás napja</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120006"
+                  type="tns:FieldGroup_NAV_F02_120006_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(D)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120007_Type">
+      <annotation>
+         <documentation>Hitelesítésre vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120008"
+                  type="tns:FieldGroup_NAV_F02_120008_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>(E)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120010_Type">
+      <annotation>
+         <documentation>C) Pótlap</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120033"
+                  type="tns:Chain_NAV_F02_120033_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Eladó/átadó adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F02_120018_Type">
+      <annotation>
+         <documentation>D) Pótlap</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120051"
+                  type="tns:Chain_NAV_F02_120051_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Vevő/átvevő adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Chain_NAV_F02_120033_Type">
+      <annotation>
+         <documentation>Eladó/átadó adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120034"
+                           type="tns:FieldGroup_NAV_F02_120034_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="11988">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120035"
+                           type="tns:FieldGroup_NAV_F02_120035_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Eladó/átadó adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Chain_NAV_F02_120051_Type">
+      <annotation>
+         <documentation>Vevő/átvevő adatok</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_header" minOccurs="0">
+            <annotation>
+               <documentation>Lánc nem ismétlődő elemei (felületen előtte vagy utána jelennek meg)</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120052"
+                           type="tns:FieldGroup_NAV_F02_120052_Type"
+                           minOccurs="0"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Egyedi lánc eleme elől</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="25974">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120053"
+                           type="tns:FieldGroup_NAV_F02_120053_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Vevő/átvevő adatok</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120002_Type">
+      <annotation>
+         <documentation>(B)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001E0119ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adószáma (IKTATO.ADOIG)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="11"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0120ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Engedélyszám (IKTATO.ENGSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0117ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Neve (IKTATO.NEV)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0121ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Telephely cím: irsz. (IKTATO.CIM_1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="9"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0122ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Város község (IKTATO.CIM_2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0123ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>utca / út (IKTATO.CIM_3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="41"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0124ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hsz. (IKTATO.CIM_4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120004_Type">
+      <annotation>
+         <documentation>(C)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001F0114ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hiánypótlás (HIANYPOTLAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001F0132ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Javítás (JAVITAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0115ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hivatkozott beküldési azonosító (IKTATO.KAPCS_XML_ID)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="27"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120006_Type">
+      <annotation>
+         <documentation>(D)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001G0125ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Eladás/vásárlás napja: (IKTATO.BTOL)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001G0131ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Határon átnyúló tevékenység (HATAR)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120008_Type">
+      <annotation>
+         <documentation>(E)</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001H0126ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Aláírás helysége (KELTHELY)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001H0127ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ Kelt (IKTATO.BKELT)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001H0128ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bejelentő azonosító (BEJAZON)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120035_Type">
+      <annotation>
+         <documentation>Eladó/átadó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ Sorszám (ELADSORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001LA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>b) Telephely nélkül (ELADTN01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>c) Vámtarifa szám (ELADHS01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ d) Anyag megnevezés (ELADMEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001DA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001DA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>e) Felismerésre alkalmas jellemző (ELADJELKOD01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>f) Leírás (ELADMEGJ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="300"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>g) Eladó/átadó neve (ELADNEV01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>h) Eladó/átadó címe (ELADCIM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="100"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001PA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>i) Külföldi (EKULFOLDI01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>j) Eladó/átadó adószáma vagy azonosítószáma (ELADALANYKOD01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>k) Okmányszám (természetes személy) (ELADSZIGSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="15"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001JA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>l) Számla vagy kísérő okmány száma (ELADOKMSZAM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001KA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>m) Mennyiség (kg) (ELADMENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="decimal">
+                  <totalDigits value="11"/>
+                  <fractionDigits value="2"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001MA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>n) Vételár/ellenérték (természetes személy) (ELADAR01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="8"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001NA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>o) Visszaigazolás száma (ELADVISZIG01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001OA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>p) Szállítóeszköz azonosítója (ELADRENDSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120034_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXB0104ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ Lapszám: (ELADLAPSZAM)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120053_Type">
+      <annotation>
+         <documentation>Vevő/átvevő adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ Sorszám (VEVOSORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001KA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>b) Telephely nélkül (VEVOTN01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>c) Vámtarifa szám (VEVOHS01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ d) Anyag megnevezés (VEVOMEGN01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001DA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F02_0BXXXXC0001DA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>e) Felismerésre alkalmas jellemző (VEVOJELKOD01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001EA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>f) Leírás (VEVOMEGJ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="300"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>g) Vevő/átvevő neve (VEVONEV01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>h) Vevő/átvevő címe (VEVOCIM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="100"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001MA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>i) Külföldi (VKULFOLDI01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0CXXXXC0001HA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>j) Vevő/átvevő adószáma vagy adóazonosítója (VEVOALANYKOD01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>k) Számla vagy kísérő okmány száma (VEVOOKMSZAM01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="20"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001JA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>l) Mennyiség (kg) (VEVOMENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="decimal">
+                  <totalDigits value="11"/>
+                  <fractionDigits value="2"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0CXXXXC0001LA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>m) Szállítóeszköz azonosítója (VEVORENDSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="50"/>
+                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F02_120052_Type">
+      <annotation>
+         <documentation>Egyedi lánc eleme elől</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0CXXXXB0104ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Számított mező, tartalma kalkulációval (vagy XPath futtatással) kerül meghatározásra. ¦ Lapszám: (VEVOLAPSZAM)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="3"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+</schema>
